@@ -1,0 +1,13 @@
+This circuit is just a led and a resitor of 330 ohm, 
+
+Usually LED is 2vf 20mA (read specifications or data sheets for that)
+
+The 3.3v source is used, a resistor of 330 ohm is placed to avoid damage on the led (any resitor higher than 65 ohms will do the trick to, mind the % errors)
+
+Mind the led polarity, short leg is - (negative)  and long one is + (positive)
+
+A resistor is needed in order to do not harm the led, as it will usually need 2.2vf 
+
+GPIO 4 pin board---> resistor 300 oh --> long leg of led 
+short leg of led --> blue line breadboard 5v side --> ground GPIO pin
+
