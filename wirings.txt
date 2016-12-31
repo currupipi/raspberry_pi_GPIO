@@ -1,0 +1,3 @@
+This circuit has a pull up resitor of 10kohm by hardware, that is needed to avoid floating values on the input, we force it to be +3.3v 
+
+source + 3.3v -->resitor 10kohm -->GPIO4 on board --> button (left down leg) --> button (top right leg) to - --> - to ground on board
